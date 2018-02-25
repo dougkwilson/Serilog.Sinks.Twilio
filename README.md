@@ -1,7 +1,7 @@
 # Serilog.Sinks.Twilio - A Serilog sink that transmits log events over SMS via Twilio
 
 [![Build status](https://ci.appveyor.com/api/projects/status/63p1e4llkl0jakli?svg=true)](https://ci.appveyor.com/project/dougkwilson/serilog-sinks-twilio)
-[![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.Twilio.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.Twilio/) 
+[![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.Twilio.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.Twilio/)
 [![NuGet](https://img.shields.io/nuget/dt/Serilog.Sinks.Twilio.svg)](https://www.nuget.org/packages/Serilog.Sinks.Twilio/)
 [![Documentation](https://img.shields.io/badge/docs-wiki-yellow.svg)](https://github.com/serilog/serilog/wiki)
 [![Join the chat at https://gitter.im/serilog/serilog](https://img.shields.io/gitter/room/serilog/serilog.svg)](https://gitter.im/serilog/serilog)
@@ -24,7 +24,7 @@ If you want to include the Twilio sink in your project, you can [install it dire
 
 To install the sink, run the following command in the Package Manager Console:
 
-```
+```powershell
 PM> Install-Package Serilog.Sinks.Twilio
 ```
 
@@ -35,9 +35,9 @@ In the following example, the sink will transmit log events to `<toPhoneNumber>`
 ```csharp
   var log = new LoggerConfiguration()
     .WriteTo.Twilio(
-      accountSid: "<your_account_sid>", 
-      authToken: "<your_auth_token>", 
-      fromPhoneNumber: "<fromPhoneNumber>", 
+      accountSid: "<your_account_sid>",
+      authToken: "<your_auth_token>",
+      fromPhoneNumber: "<fromPhoneNumber>",
       toPhoneNumber: "<toPhoneNumber>",
       restrictedToMinimumLevel: LogEventLevel.Information)
     .CreateLogger();
@@ -67,5 +67,3 @@ Used in conjunction with [Serilog.Settings.Configuration](https://github.com/ser
   }
 }
 ```
-
-## Credit
