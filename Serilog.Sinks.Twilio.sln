@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.Twilio", "Serilog.Sinks.Twilio\Serilog.Sinks.Twilio.csproj", "{1E1F0AA9-E603-44EB-9657-86747890BDB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.Twilio", "src\Serilog.Sinks.Twilio\Serilog.Sinks.Twilio.csproj", "{4CFC5FDA-E635-43F7-B982-823FF6E29E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Twilio.Tests", "Serilog.Sinks.Twilio.Tests\Serilog.Sinks.Twilio.Tests.csproj", "{DF61D136-6A85-4096-B77A-D628F9B7603B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Twilio.Tests", "tests\Serilog.Sinks.Twilio.Tests\Serilog.Sinks.Twilio.Tests.csproj", "{DF61D136-6A85-4096-B77A-D628F9B7603B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E1F0AA9-E603-44EB-9657-86747890BDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E1F0AA9-E603-44EB-9657-86747890BDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E1F0AA9-E603-44EB-9657-86747890BDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E1F0AA9-E603-44EB-9657-86747890BDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFC5FDA-E635-43F7-B982-823FF6E29E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFC5FDA-E635-43F7-B982-823FF6E29E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFC5FDA-E635-43F7-B982-823FF6E29E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFC5FDA-E635-43F7-B982-823FF6E29E26}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DF61D136-6A85-4096-B77A-D628F9B7603B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF61D136-6A85-4096-B77A-D628F9B7603B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF61D136-6A85-4096-B77A-D628F9B7603B}.Release|Any CPU.ActiveCfg = Release|Any CPU
