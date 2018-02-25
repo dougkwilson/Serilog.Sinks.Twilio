@@ -1,14 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-		<Description>A Serilog sink that writes log events SMS via Twilio.</Description>
+		<Title>Serilog.Sinks.Twilio</Title>
+		<Description>A Serilog sink that transmits log events over SMS via Twilio.</Description>
 		<Authors>Serilog Contributors</Authors>
 		<TargetFrameworks>net45;netstandard1.4;netcoreapp1.1</TargetFrameworks>
 		<AssemblyName>Serilog.Sinks.Twilio</AssemblyName>
 		<PackageId>Serilog.Sinks.Twilio</PackageId>
 		<PackageTags>serilog;sms;twilio</PackageTags>
 		<PackageIconUrl>http://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
-		<PackageProjectUrl>https://github.com/serilog/serilog-sinks-twilio</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/dougkwilson/serilog-sinks-twilio</PackageProjectUrl>
 		<PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
 		<GenerateAssemblyVersionAttribute>true</GenerateAssemblyVersionAttribute>
 		<GenerateAssemblyFileVersionAttribute>true</GenerateAssemblyFileVersionAttribute>

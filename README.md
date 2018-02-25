@@ -1,4 +1,4 @@
-# Serilog.Sinks.Twilio - A Serilog sink that sends events over SMS via Twilio
+# Serilog.Sinks.Twilio - A Serilog sink that transmits log events over SMS via Twilio
 
 [![Build status](https://ci.appveyor.com/api/projects/status/63p1e4llkl0jakli?svg=true)](https://ci.appveyor.com/project/dougkwilson/serilog-sinks-twilio)
 [![NuGet Version](http://img.shields.io/nuget/v/Serilog.Sinks.Twilio.svg?style=flat)](https://www.nuget.org/packages/Serilog.Sinks.Twilio/) 
