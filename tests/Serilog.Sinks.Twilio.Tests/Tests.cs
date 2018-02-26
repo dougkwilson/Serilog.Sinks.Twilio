@@ -8,17 +8,17 @@ namespace Serilog.Sinks.Twilio.Tests
 {
 	public class TwilioSink_Can_Be
 	{
-		[Fact(Skip = "Requires valid Twilio account")]
+		[Fact]
 		public void Configured_Programatically() {
 			var sb = new StringBuilder();
 			Debugging.SelfLog.Enable(msg => sb.AppendLine(msg));
 
 			var log = new LoggerConfiguration()
 				.WriteTo.Twilio(
-					accountSid: "your_account_sid",
-					authToken: "your_auth_token",
-					fromPhoneNumber: "+14158141829",
-					toPhoneNumber: "+16518675309",
+					accountSid: "AC2789548ef551af68eba59e42171ecd69",
+					authToken: "5c1b870b5a352aaa2fe64b7ee9f4819d",
+					fromPhoneNumber: "+15005550006",
+					toPhoneNumber: "+15005550000",
 					restrictedToMinimumLevel: LogEventLevel.Information)
 				.CreateLogger();
 
@@ -27,7 +27,7 @@ namespace Serilog.Sinks.Twilio.Tests
 			Assert.Equal(String.Empty, sb.ToString());
 		}
 
-		[Fact(Skip = "Requires valid Twilio account")]
+		[Fact]
 		public void Configured_With_Settings_File() {
 			var sb = new StringBuilder();
 			Debugging.SelfLog.Enable(msg => sb.AppendLine(msg));
