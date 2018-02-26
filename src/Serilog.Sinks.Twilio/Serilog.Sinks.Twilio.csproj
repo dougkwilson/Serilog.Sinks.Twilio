@@ -4,19 +4,23 @@
 		<Title>Serilog.Sinks.Twilio</Title>
 		<Description>A Serilog sink that transmits log events over SMS via Twilio.</Description>
 		<Authors>Serilog Contributors</Authors>
+		<Copyright>Copyright 2018</Copyright>
 		<TargetFrameworks>net45;netstandard1.4;netcoreapp1.1</TargetFrameworks>
 		<AssemblyName>Serilog.Sinks.Twilio</AssemblyName>
 		<PackageId>Serilog.Sinks.Twilio</PackageId>
+		<PackageVersion></PackageVersion>
 		<PackageTags>serilog;sms;twilio</PackageTags>
 		<PackageIconUrl>http://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
 		<PackageProjectUrl>https://github.com/dougkwilson/serilog-sinks-twilio</PackageProjectUrl>
 		<PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
-		<GenerateAssemblyVersionAttribute>true</GenerateAssemblyVersionAttribute>
-		<GenerateAssemblyFileVersionAttribute>true</GenerateAssemblyFileVersionAttribute>
-		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<!-- Don't reference the full NETStandard.Library -->
+		<RepositoryUrl>https://github.com/dougkwilson/serilog-sinks-twilio</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+		<GenerateAssemblyVersionAttribute>true</GenerateAssemblyVersionAttribute> 
+    <GenerateAssemblyFileVersionAttribute>true</GenerateAssemblyFileVersionAttribute> 
+    <GenerateDocumentationFile>true</GenerateDocumentationFile> 
 		<DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
-		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		<TreatSpecificWarningsAsErrors />
 		<RootNamespace>Serilog</RootNamespace>  
 	</PropertyGroup>
